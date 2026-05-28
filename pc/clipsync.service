@@ -1,0 +1,13 @@
+[Unit]
+Description=ClipSync - Cross-device P2P Clipboard Synchronization Daemon (24/7)
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/share/clipsync/clipsync_daemon.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ClipSync
+Comment=High-speed P2P local clipboard synchronizer
+Exec=/usr/bin/clipsync
+Icon=edit-copy
+Terminal=false
+Categories=Utility;Network;
+X-GNOME-Autostart-enabled=true
+StartupNotify=false

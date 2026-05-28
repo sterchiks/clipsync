@@ -1,0 +1,6 @@
+{
+  "name": "ClipSync",
+  "description": "High-performance, secure local network clipboard sync for Android and PC (Linux Mint / KDE)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
